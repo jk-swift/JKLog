@@ -25,6 +25,7 @@
   ],
   "vendored_libraries": "JKLog/Classes/lib/*.a",
   "xcconfig": {
-    "ENABLE_BITCODE": "NO"
+    "ENABLE_BITCODE": "NO",
+    "VALID_ARCHS": "x86_64 arm64"
   }
 }
