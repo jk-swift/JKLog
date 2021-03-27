@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'JKLog is base on alog'
 
-  s.homepage         = 'https://github.com/yulongmailbox@163.com/JKLog'
+  s.homepage         = 'https://github.com/jk-swift/JKLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yulongmailbox@163.com' => 'yulongmailbox@163.com' }
-  s.source           = { :git => 'https://github.com/yulongmailbox@163.com/JKLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jk-swift/JKLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -39,4 +37,11 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.libraries = "c++", "z"
+
+  s.vendored_libraries = "JKLog/Classes/lib/*.a"
+
+  s.xcconfig = { "ENABLE_BITCODE" => "NO"}
+
 end

@@ -1,0 +1,16 @@
+PODS:
+  - JKLog (0.1.0)
+
+DEPENDENCIES:
+  - JKLog (from `../`)
+
+EXTERNAL SOURCES:
+  JKLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKLog: e7f9abd3eb2abf0ec3f98866a13134d788a28425
+
+PODFILE CHECKSUM: f3fbda0180da47461872723b09da5e8214f4202f
+
+COCOAPODS: 1.7.1

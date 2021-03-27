@@ -1,0 +1,30 @@
+{
+  "name": "JKLog",
+  "version": "0.1.0",
+  "summary": "A short description of JKLog.",
+  "description": "JKLog is base on alog",
+  "homepage": "https://github.com/jk-swift/JKLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yulongmailbox@163.com": "yulongmailbox@163.com"
+  },
+  "source": {
+    "git": "https://github.com/jk-swift/JKLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JKLog/Classes/**/*",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "vendored_libraries": "JKLog/Classes/lib/*.a",
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  }
+}
