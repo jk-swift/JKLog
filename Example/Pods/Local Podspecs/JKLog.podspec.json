@@ -1,6 +1,6 @@
 {
   "name": "JKLog",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of JKLog.",
   "description": "JKLog is base on alog",
   "homepage": "https://github.com/jk-swift/JKLog",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jk-swift/JKLog.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -25,7 +25,9 @@
   ],
   "vendored_libraries": "JKLog/Classes/lib/*.a",
   "xcconfig": {
-    "ENABLE_BITCODE": "NO",
-    "VALID_ARCHS": "x86_64 arm64"
+    "ENABLE_BITCODE": "NO"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
   }
 }

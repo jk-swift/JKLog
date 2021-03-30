@@ -1,5 +1,5 @@
 PODS:
-  - JKLog (0.1.0)
+  - JKLog (0.1.2)
 
 DEPENDENCIES:
   - JKLog (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKLog: 35afeb742eccbe87ea5a6c46fd4af6accefd700d
+  JKLog: a7279eef318402420ee9e020bdd0831266d81db7
 
 PODFILE CHECKSUM: f3fbda0180da47461872723b09da5e8214f4202f
 

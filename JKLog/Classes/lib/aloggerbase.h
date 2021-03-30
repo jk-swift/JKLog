@@ -101,7 +101,7 @@ void        alogger_Write(const ALoggerInfo* _info, const char* _log);
  * @param _path 日志文件路径
  * @param _name 日志文件名称
  */
-void alogger_init(int _level, const char* _path, const char* _name);
+int alogger_init(int _level, const char* _path, const char* _name);
 /**
  * verbose 打印
  * @param _tag tag 说明
@@ -111,32 +111,32 @@ void alogger_init(int _level, const char* _path, const char* _name);
  * @param _tid 线程 id
  * @param _log 日志内容
  */
-void alogger_verbose(const char* _tag, int _type, const char * _module_name,int _line, int _tid,const char * _log);
+int alogger_verbose(const char* _tag, int _type, const char * _module_name,int _line, int _tid,const char * _log);
 
-void alogger_debug(const char* _tag, int _type, const char * _module_name,int _line, int _tid,const char * _log);
+int alogger_debug(const char* _tag, int _type, const char * _module_name,int _line, int _tid,const char * _log);
 
-void alogger_info(const char* _tag, int _type, const char * _module_name,int _line,int _tid,const char * _log);
+int alogger_info(const char* _tag, int _type, const char * _module_name,int _line,int _tid,const char * _log);
 
-void alogger_warn(const char* _tag, int _type, const char * _module_name,int _line,int _tid,const char * _log);
+int alogger_warn(const char* _tag, int _type, const char * _module_name,int _line,int _tid,const char * _log);
 
-void alogger_error(const char* _tag, int _type, const char * _module_name,int _line,int _tid,const char * _log);
+int alogger_error(const char* _tag, int _type, const char * _module_name,int _line,int _tid,const char * _log);
 
-void alogger_test(const char* _tag, int _type, const char * _module_name,int _line, int _tid,const char * _log);
+int alogger_test(const char* _tag, int _type, const char * _module_name,int _line, int _tid,const char * _log);
 
 /**
  * 将缓存信息同步写入目标日志
  */
-void alogger_flushSync();
+int alogger_flushSync();
 
 /**
  * 将缓存信息异步写入目标日志
  */
-void alogger_flushAsync();
+int alogger_flushAsync();
 
 /**
  * 销毁对应日志，如果再次使用需要调用 init
  */
-void alogger_release();
+int alogger_release();
 
 #ifdef __cplusplus
 }

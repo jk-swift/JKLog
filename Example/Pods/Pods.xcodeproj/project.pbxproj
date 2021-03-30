@@ -48,21 +48,21 @@
 		21336B7F36157C023EA989AF2235ADE8 /* Pods-JKLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		224DE10F8376A23D3F82E135CA7D7FFE /* Pods-JKLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKLog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		225592FF757DCBA7B8C256480CBCEF2D /* Pods-JKLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKLog_Tests-Info.plist"; sourceTree = "<group>"; };
-		292B625A2FEC681892BE9B32301000FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		292B625A2FEC681892BE9B32301000FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		36A6F2EEBF38236D934A623F6CCF3D54 /* Pods-JKLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3AEFF99074178C388741E0481401E69C /* JKLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKLog-Info.plist"; sourceTree = "<group>"; };
-		41C95B62F62A713B4AC8FFC2019B8EA3 /* Pods_JKLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C95B62F62A713B4AC8FFC2019B8EA3 /* Pods_JKLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKLog_Example.framework; path = "Pods-JKLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		553233EF251390697D29A1BE167AC420 /* JKLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKLog-prefix.pch"; sourceTree = "<group>"; };
 		5CB356A5F9D330EAC168E24CEB90E379 /* Pods-JKLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A8F66BC731E481DDD7FA8616AD95197 /* Pods-JKLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKLog_Example-dummy.m"; sourceTree = "<group>"; };
-		6E0735E609E5DFFBB600CCD7CD8DD8FC /* JKLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E0735E609E5DFFBB600CCD7CD8DD8FC /* JKLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		740DC8A486021FCCF69EE6ACF1869AC3 /* Pods-JKLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKLog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		76A46036BAEF60E74E15FD1AB4D7FEA4 /* Pods_JKLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A46036BAEF60E74E15FD1AB4D7FEA4 /* Pods_JKLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JKLog_Tests.framework; path = "Pods-JKLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E6835B3DEF904D458B9C668DA190DF /* Pods-JKLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKLog_Example-umbrella.h"; sourceTree = "<group>"; };
 		7BCF4074BDE4B0972D9A155D577A8092 /* verinfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = verinfo.h; sourceTree = "<group>"; };
 		89AA3751B2F4EDC1C5FB691C39A165C6 /* JKLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKLog.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A362CB5B64373021D8042A8CA64F9609 /* JKLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKLog-dummy.m"; sourceTree = "<group>"; };
 		A3C9ECD4DB0EDF704F6A4C01D531CA02 /* Pods-JKLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6628BFA672B520DB8C24A0C2E6659D1 /* Pods-JKLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKLog_Example-Info.plist"; sourceTree = "<group>"; };
@@ -71,8 +71,8 @@
 		AF9E0131E8D0E1AF50476E14A70E6DEC /* Pods-JKLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2A3BC3CA2DBBD911157AC7D3EA85B85 /* Pods-JKLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKLog_Example.modulemap"; sourceTree = "<group>"; };
 		B76C01FC0F5153561F90D9BBE6B7F9E8 /* JKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JKLog.h; path = JKLog/Classes/JKLog.h; sourceTree = "<group>"; };
-		CD88CEBB4A29553EC2C0FCC4B54F91B0 /* JKLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0FE757F1D16DB0F28D868E23FA5A11E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CD88CEBB4A29553EC2C0FCC4B54F91B0 /* JKLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKLog.framework; path = JKLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE757F1D16DB0F28D868E23FA5A11E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D328E951EC1F37F7B24231FFEC11D795 /* Pods-JKLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DC367E8EADD30D02EEA3351CEF268440 /* JKLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKLog-umbrella.h"; sourceTree = "<group>"; };
 		DDB7B5F85E963EB8021729C5DB46DDB3 /* Pods-JKLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKLog_Tests.modulemap"; sourceTree = "<group>"; };
@@ -474,7 +474,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89AA3751B2F4EDC1C5FB691C39A165C6 /* JKLog.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -538,7 +537,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89AA3751B2F4EDC1C5FB691C39A165C6 /* JKLog.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -651,7 +649,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
